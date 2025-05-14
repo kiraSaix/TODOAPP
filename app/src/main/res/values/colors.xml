@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="accent_pink">#FF8FAB</color>
+    <color name="accent_pink_light">#FFB7D0</color>
+    <color name="accent_pink_dark">#FF6B8B</color>
+    <color name="accent_purple">#9C89B8</color>
+    <color name="accent_purple_light">#B8A7D1</color>
+
+    <!-- Background Colors -->
+    <color name="background_pink_light">#FFF0F3</color>
+    <color name="background_purple_light">#F5F0FF</color>
+    <color name="background_pink">#FFF0F3</color>
+    <color name="card_background">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#4A4A4A</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9C8AA5</color>
+    
+    <!-- Additional Kawaii Colors -->
+    <color name="kawaii_mint">#98D7C2</color>
+    <color name="kawaii_mint_light">#C5E7DC</color>
+    <color name="kawaii_peach">#FFBFA3</color>
+    <color name="kawaii_peach_light">#FFD7C7</color>
+    <color name="kawaii_lavender">#E5C9FF</color>
+    <color name="kawaii_yellow">#FFE5B9</color>
+    
+    <!-- System Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <!-- Status Colors -->
+    <color name="success_green">#A8E6CF</color>
+    <color name="warning_yellow">#FFD3B6</color>
+    <color name="error_red">#FFAAA5</color>
+
+    <!-- Navigation Colors -->
+    <color name="status_bar">@color/accent_pink_light</color>
+    <color name="navigation_bar">@color/background_pink_light</color>
+</resources>

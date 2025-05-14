@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_pink">
+
+    <TextView
+        android:id="@+id/emptyNotesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="No notes yet! 📝✨\nTime to write something cute! 💖"
+        android:textAlignment="center"
+        android:textColor="@color/accent_purple"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="16dp"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="88dp" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/addNoteFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:text="Add Note ✨"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:icon="@drawable/ic_add"
+        app:iconTint="@color/white"
+        app:cornerRadius="24dp"
+        app:backgroundTint="@color/accent_purple" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout> 

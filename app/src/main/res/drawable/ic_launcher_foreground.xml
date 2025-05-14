@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:translateX="21.6"
+        android:translateY="21.6">
+
+        <!-- Main pen body (rounder and cuter) -->
+        <path
+            android:fillColor="@color/accent_pink"
+            android:pathData="M40,85 Q40,85 65,35 Q67,32 70,35 L75,40 Q78,43 75,46 L50,96 Q47,99 44,96 Z"
+            android:strokeWidth="2"
+            android:strokeColor="@color/accent_pink"/>
+
+        <!-- Cute rounded tip -->
+        <path
+            android:fillColor="@color/accent_pink"
+            android:pathData="M44,96 Q47,99 50,96 L45,101 Q42,104 39,101 Z"
+            android:strokeWidth="1.5"
+            android:strokeColor="@color/accent_pink"/>
+
+        <!-- Kawaii face -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M55,60 A1,1 0 1,1 55,59.9"/>  <!-- Left eye -->
+        
+        <path
+            android:fillColor="#000000"
+            android:pathData="M61,60 A1,1 0 1,1 61,59.9"/>  <!-- Right eye -->
+            
+        <path
+            android:strokeColor="#000000"
+            android:strokeWidth="1"
+            android:pathData="M56,65 Q58,67 60,65"/>  <!-- Cute smile -->
+
+        <!-- Pen top with bow -->
+        <path
+            android:fillColor="@color/accent_pink"
+            android:pathData="M65,35 Q65,32 70,35 L75,40 Q80,35 75,30 L70,25 Q65,20 60,25 Z"
+            android:strokeWidth="1.5"
+            android:strokeColor="@color/accent_pink"/>
+
+        <!-- Bow left -->
+        <path
+            android:fillColor="@color/accent_pink"
+            android:pathData="M60,25 Q55,20 57,15 Q60,10 65,15 Q70,20 65,25"
+            android:strokeWidth="1"
+            android:strokeColor="@color/accent_pink"/>
+
+        <!-- Bow right -->
+        <path
+            android:fillColor="@color/accent_pink"
+            android:pathData="M80,25 Q85,20 83,15 Q80,10 75,15 Q70,20 75,25"
+            android:strokeWidth="1"
+            android:strokeColor="@color/accent_pink"/>
+
+        <!-- Bow center -->
+        <path
+            android:fillColor="@color/accent_pink"
+            android:pathData="M70,22 L72,25 L70,28 L68,25 Z"
+            android:strokeWidth="1"
+            android:strokeColor="@color/accent_pink"/>
+
+        <!-- Sparkles -->
+        <path
+            android:fillColor="@color/accent_pink"
+            android:pathData="M45,45 L47,43 L49,45 L47,47 Z"/>
+        
+        <path
+            android:fillColor="@color/accent_pink"
+            android:pathData="M65,75 L67,73 L69,75 L67,77 Z"/>
+            
+        <path
+            android:fillColor="@color/accent_pink"
+            android:pathData="M55,85 L57,83 L59,85 L57,87 Z"/>
+
+    </group>
+</vector>

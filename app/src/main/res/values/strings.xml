@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Todo</string>
+    <string name="app_title">To Do List</string>
+    <string name="app_mascot">App mascot</string>
+    <string name="add_task_hint">Enter a new task…</string>
+    <string name="add_task">Add task</string>
+    <string name="streak_format">✨ %d Day Streak! ✨</string>
+    <string name="streak_3_days">Three day streak! You\'re amazing! 🌟</string>
+    <string name="streak_5_days">Five days! You\'re on fire! 🔥</string>
+    <string name="streak_7_days">A week! You\'re unstoppable! 🎉</string>
+    <string name="streak_10_days">10 day streak! Legendary! 👑</string>
+    <string name="task_completed">Task completed!</string>
+    <string name="keep_going">Keep going!</string>
+    <string name="task_removed">Task removed</string>
+    <string name="enter_task">Please enter a task</string>
+    <string name="header_image_description">Planner logo</string>
+    <string name="message_amazing">✨ Amazing work! Keep shining! ✨</string>
+    <string name="message_fantastic">🌟 You\'re doing fantastic! 🌟</string>
+    <string name="message_proud">💖 So proud of you! 💖</string>
+    <string name="message_achievement">🎉 What a great achievement! 🎉</string>
+    <string name="message_magic">🌈 You\'re making magic happen! 🌈</string>
+    <string name="message_wonderful">💫 Simply wonderful! 💫</string>
+    
+    <!-- Navigation -->
+    <string name="title_tasks">Tasks</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_notes">Notes</string>
+    <string name="title_settings">Settings</string>
+</resources>
